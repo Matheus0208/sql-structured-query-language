@@ -3,9 +3,9 @@
 DELETE 
 FROM men_years_at_school 
 WHERE country = 'Brazil'
-AND ref_year >= 2019
+AND ref_year BETWEEN 2010 AND 2018
 
 SELECT *
 FROM men_years_at_school 
 WHERE country = 'Brazil'
-AND ref_year BETWEEN 2018 AND 2020
+AND ref_year BETWEEN 2009 AND 2020
